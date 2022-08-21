@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev2</title>
+    <!--Style nin içinde font ayarlarını ve kullanmak istediğim rengi class oluşturdum-->
+    <style>
+        body {
+            font-family: Consolas;
+            font-size: x-large;
+
+        }
+
+        .baslikrengi {
+            color: darkslateblue
+        }
+
+        .altbaslikrengi {
+            color: rgb(216, 83, 176);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="display: flex; justify-content:center; align-items:center;">
+        <!--justify-content yatay eksende ortalıyor align-items dikey eksende ortalıyor-->
+        <!--flex justify content ve align items kullanılması için yazılıyor-->
+        <img src="sagyeni.png">
+        <h1 class="baslikrengi">
+            İlgi Alanlarım
+        </h1>
+        <img src="solyeni.png" align="right">
+    </div>
+
+
+    <ol style="margin-left:20%">
+        <!--margin (dış kenar boşluğu) yazıların bitişik gelmemesi için kullandım-->
+        <li class="altbaslikrengi">FİLM
+            <ul type="square">
+                <li> <a href="https://www.imdb.com/list/ls003814436/">Harry Potter Serisi</a></li>
+                <li> <a href="https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0">Avengers Endgame</a></li>
+                <li> <a href="https://www.imdb.com/title/tt2250912/">Örümcek Adam - Eve Dönüş</a></li>
+            </ul>
+        </li>
+        <li class="altbaslikrengi">DİZİ
+            <ul type="square">
+                <li> <a href="https://myanimelist.net/anime/20/Naruto?q=naruto&cat=anime">Naruto</a></li>
+                <li> <a href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin?q=attack%20on%20titan&cat=anime">Attack
+                        on Titan</a></li>
+                <li> <a href="https://myanimelist.net/anime/22319/Tokyo_Ghoul?q=tokyo%20ghoul&cat=anime">Tokyo Ghoul</a>
+                </li>
+            </ul>
+
+        </li>
+
+        <li class="altbaslikrengi">KİTAP
+            <ul type="square">
+                <li><a
+                        href="https://www.goodreads.com/book/show/1220467.Satran_?ac=1&from_search=true&qid=IyhabJedIA&rank=1">Satranç</a>
+                </li>
+                <li><a
+                        href="https://www.goodreads.com/book/show/220826.K_rk_Mantolu_Madonna?ac=1&from_search=true&qid=ic8ow5sXUY&rank=1">Kürk
+                        Mantolu Madonna</a></li>
+                <li><a
+                        href="https://www.goodreads.com/book/show/13490314-eker-portakal?from_search=true&from_srp=true&qid=9XBAIkVtEx&rank=1">Şeker
+                        Portakalı</a></li>
+            </ul>
+        </li>
+
+    </ol>
+    <!--flex- direction: column alt alta sıralamak için kullandım-->
+    <div style="display: flex; justify-content:center; align-items:center; margin-top: 50px; flex-direction: column;">
+        <h2 class=altbaslikrengi>
+            NARUTO
+        </h2>
+        <img src="naruto.jpg" alt="naruto" width="250">
+        <p style="width:900px">
+            Naruto, içine hapsedilmiş kyubii (9 kuyruklu efsanevi tilki) yüzünden Konoha halkı tarafından yaratık olarak
+            görülüp kenara itilmiş bir çocuktur. Naruto'nun bütün hedefi Ninja akademisini bitirip, Hokage olmaktır.
+            Akademi'nin ilk bölümünü bitirip genin olarak mezun olan Naruto, arkadaşları Sakura ve Sasuke ile chunin
+            olabilmek için yeni eğitimlerine başlarlar. Yaramaz ve bir o kadar heyecanlı bir kişiliğe sahip olan Naruto,
+            içindeki kyuubinin gücünü yavaş yavaş öğrenecektir.
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div style="width:3500px; height:180px; 
+    border:5px solid #000000; color:#F1F1F1; font:bold 20px tahoma; 
+    padding: 120px 0 0 0">
+        <h1>bndbjsdbf</h1>
+    </div>
+
+    <div class="deneme" , style="width:3500px; height:180px">
+
+        <img src="sagyeni.png" alt="şekil" class="sag">
+        <h1 class="baslikrengi" widht="50" , height="600">ZEHRA AKDOĞAN</h1>
+        <img src="solyeni.png" alt="şekil" class="sol">
+    </div>
+-->
